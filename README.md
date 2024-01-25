@@ -4,4 +4,4 @@
 
 You can access the page at: https://portfolio-eight-tau-34.vercel.app/
 
-![Example image](/portfolio.png)
+![Obraz](/public/porfolio.png)
