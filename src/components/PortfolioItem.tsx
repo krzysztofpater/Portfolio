@@ -20,18 +20,22 @@ export default function PortfolioItem({ data }: DataItem) {
       <div className="flex flex-col gap-4 flex-1">
         <h3 className="text-2xl text-center m-4">{data.name}</h3>
         <p className="text-xl">{data.description}</p>
-        <p className="mt-auto">
-          <span>Repozytorium: </span>
-          <a href={data.repoUrl} target="_blank" className="text-indigo-500">
-            {data.repoUrl}
-          </a>
-        </p>
-        <p>
-          <span>Działający projekt: </span>
-          <a href={data.url} target="_blank" className="text-indigo-500">
-            {data.url}
-          </a>
-        </p>
+        {data.repoUrl && (
+          <p className="mt-auto">
+            <span>Repozytorium: </span>
+            <a href={data.repoUrl} target="_blank" className="text-indigo-500">
+              {data.repoUrl}
+            </a>
+          </p>
+        )}
+        {data.url && (
+          <p>
+            <span>Działający projekt: </span>
+            <a href={data.url} target="_blank" className="text-indigo-500">
+              {data.url}
+            </a>
+          </p>
+        )}
       </div>
     </div>
   );

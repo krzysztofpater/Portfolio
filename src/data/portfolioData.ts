@@ -65,7 +65,7 @@ export const portfolioData = [
     name: "World App",
     img: "/world_app2.JPG",
     repoUrl: "https://github.com/krzysztofpater/WorldApp",
-    url: "-",
+    url: "",
     description:
       "Aplikacja React służąca do zaznaczania na mapie odwiedzonych lokacji. Aplikacja wykorzystuje logowanie, oraz ekploruje potencjał React-a. Aby uruchomić aplikację sprawdź instrukcję na GitHub.",
   },
@@ -74,7 +74,7 @@ export const portfolioData = [
     title: "React",
     name: "Cabins in the Woods",
     img: "/cabins_app1.png",
-    repoUrl: "-",
+    repoUrl: "",
     url: "https://cabins-in-the-woods-bo-app.vercel.app/",
     description:
       "Aplikacja Back-Office dla pracowników firmy wynajmującej domki w lesie dla gości przybywających do ośrodka na wakacje. Aplikacja wykorzystuje stworzony tylko dla siebie backend (Supabase), Tanstack Query, Hook-Form, dark/light mode, logowanie i wiele innych możliwości, które daje React. ",
