@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-gray-200 dark:bg-slate-900">
+      <body className="bg-gray-200 dark:bg-slate-900 transition-all duration-200">
         <Navigation />
         {children}
       </body>

@@ -8,13 +8,13 @@ type DataItem = {
 
 export default function PortfolioItem({ data }: DataItem) {
   return (
-    <div className="flex flex-col gap-4 py-6 px-4  rounded-lg group transform transition-all ease-in-out duration-300 hover:shadow-[5px_5px_40px] hover:shadow-gray-400 dark:hover:shadow-gray-800">
+    <div className="flex flex-col gap-4 py-6 px-4  rounded-lg group transform transition-all ease-in-out duration-200 hover:shadow-[5px_5px_40px] hover:shadow-gray-400 dark:hover:shadow-gray-800">
       <div className="relative h-[300px] w-[92%] mx-auto overflow-hidden rounded">
         <Image
           src={data.img}
           alt="portfolio image"
           fill
-          className=" object-cover object-top opacity-70 group-hover:opacity-100"
+          className=" object-cover object-top opacity-70 group-hover:opacity-100 transition-all ease-in-out duration-200"
         />
       </div>
       <div className="flex flex-col gap-4 flex-1">
