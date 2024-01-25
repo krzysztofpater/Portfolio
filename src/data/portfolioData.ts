@@ -85,7 +85,7 @@ export const portfolioData = [
     name: "Portfolio",
     img: "/porfolio.png",
     repoUrl: "https://github.com/krzysztofpater/Portfolio",
-    url: "-",
+    url: "https://portfolio-eight-tau-34.vercel.app/portfolio",
     description:
       "Serwis internetowy Portfolio, który właśnie przeglądasz :) - stworzony w NextJS + TypesScript + TailwindCSS. Głównym celem stworzenia serwisu było odświeżenie wiedzy z zakresu TypeScript, Next, Tailwind.",
   },
