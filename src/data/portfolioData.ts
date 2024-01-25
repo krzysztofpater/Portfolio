@@ -84,7 +84,7 @@ export const portfolioData = [
     title: "NextJS",
     name: "Portfolio",
     img: "/porfolio.png",
-    repoUrl: "-",
+    repoUrl: "https://github.com/krzysztofpater/Portfolio",
     url: "-",
     description:
       "Serwis internetowy Portfolio, który właśnie przeglądasz :) - stworzony w NextJS + TypesScript + TailwindCSS. Głównym celem stworzenia serwisu było odświeżenie wiedzy z zakresu TypeScript, Next, Tailwind.",
