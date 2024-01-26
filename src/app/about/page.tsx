@@ -18,13 +18,28 @@ export default function About() {
         </div>
         <div className="flex-1 flex flex-col gap-6 max-w-2xl animate-slidein [--slidein-delay:700ms] opacity-0">
           <h2>kilka słów o autorze</h2>
-          <p>
+          <p className="indent-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
             eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
             consequatur nesciunt culpa dolorum facilis eaque cumque minima
             asperiores, commodi nisi.
           </p>
-          <p>
+          <p className="indent-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            facilis rerum dolores consectetur error eos sequi sint illum hic
+            nobis.
+          </p>
+          <p className="indent-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
+            voluptatum ea possimus dolorem delectus!
+          </p>
+          <p className="indent-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+            eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
+            consequatur nesciunt culpa dolorum facilis eaque cumque minima
+            asperiores, commodi nisi.
+          </p>
+          <p className="indent-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             facilis rerum dolores consectetur error eos sequi sint illum hic
             nobis.
@@ -33,13 +48,13 @@ export default function About() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
             voluptatum ea possimus dolorem delectus!
           </p>
-          <p>
+          <p className="indent-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
             eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
             consequatur nesciunt culpa dolorum facilis eaque cumque minima
             asperiores, commodi nisi.
           </p>
-          <p>
+          <p className="indent-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             facilis rerum dolores consectetur error eos sequi sint illum hic
             nobis.
@@ -48,13 +63,28 @@ export default function About() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
             voluptatum ea possimus dolorem delectus!
           </p>
-          <p>
+          <p className="indent-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
             eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
             consequatur nesciunt culpa dolorum facilis eaque cumque minima
             asperiores, commodi nisi.
           </p>
-          <p>
+          <p className="indent-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            facilis rerum dolores consectetur error eos sequi sint illum hic
+            nobis.
+          </p>
+          <p className="indent-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
+            voluptatum ea possimus dolorem delectus!
+          </p>
+          <p className="indent-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+            eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
+            consequatur nesciunt culpa dolorum facilis eaque cumque minima
+            asperiores, commodi nisi.
+          </p>
+          <p className="indent-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             facilis rerum dolores consectetur error eos sequi sint illum hic
             nobis.
@@ -63,48 +93,18 @@ export default function About() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
             voluptatum ea possimus dolorem delectus!
           </p>
-          <p>
+          <p className="indent-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
             eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
             consequatur nesciunt culpa dolorum facilis eaque cumque minima
             asperiores, commodi nisi.
           </p>
-          <p>
+          <p className="indent-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             facilis rerum dolores consectetur error eos sequi sint illum hic
             nobis.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
-            voluptatum ea possimus dolorem delectus!
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-            eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
-            consequatur nesciunt culpa dolorum facilis eaque cumque minima
-            asperiores, commodi nisi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            facilis rerum dolores consectetur error eos sequi sint illum hic
-            nobis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
-            voluptatum ea possimus dolorem delectus!
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-            eligendi nesciunt alias illum reiciendis ab labore. Quas eius beatae
-            consequatur nesciunt culpa dolorum facilis eaque cumque minima
-            asperiores, commodi nisi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            facilis rerum dolores consectetur error eos sequi sint illum hic
-            nobis.
-          </p>
-          <p>
+          <p className="indent-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint
             voluptatum ea possimus dolorem delectus!
           </p>

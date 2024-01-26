@@ -8,6 +8,7 @@ export const portfolioData = [
     url: "https://krzysztofpater.github.io/ParadiseIsland/",
     description:
       "Strona internetowa wykonana z wykorzystaniem SASS oraz JS. Po więcej szczegółów sprawdź repozytorium na GitHub",
+    additionalInfo: "",
   },
   {
     type: "WWW",
@@ -18,6 +19,7 @@ export const portfolioData = [
     url: "https://krzysztofpater.github.io/Audiofans/",
     description:
       "Strona internetowa wykonana z wykorzystaniem Bootstrap, SASS oraz JS. Po więcej szczegółów sprawdź repozytorium na GitHub",
+    additionalInfo: "",
   },
   {
     type: "WWW",
@@ -28,6 +30,7 @@ export const portfolioData = [
     url: "https://krzysztofpater.github.io/Digitalgold/",
     description:
       "Strona internetowa wykonana z wykorzystaniem SASS oraz JS. Po więcej szczegółów sprawdź repozytorium na GitHub",
+    additionalInfo: "",
   },
   {
     type: "JS",
@@ -38,6 +41,7 @@ export const portfolioData = [
     url: "https://krzysztofpater.github.io/GuessMyNumber/",
     description:
       "Bardzo prosta gra stworzona w czystym JavaSript (z wykorzystaniem responsive design) - gracz zgaduje numer z zadanego przedziału, a aplikacja odpowiada czy odgadnięta liczba jest za mała czy za duża. Punkty zrobywa się za jak najmniejszą ilość prób odgadnięcia liczby.",
+    additionalInfo: "",
   },
   {
     type: "JS",
@@ -48,6 +52,7 @@ export const portfolioData = [
     url: "https://krzysztofpater.github.io/GuessMyNumber/",
     description:
       "Gra stworzona w czystym JS, z wykorzystaniem responsive design. Aplikacja zawiera też instrukcję. ",
+    additionalInfo: "",
   },
   {
     type: "JS",
@@ -58,6 +63,7 @@ export const portfolioData = [
     url: "https://krzysztofpater.github.io/ShoppingApp/",
     description:
       "Aplikacja zakupowa stworzona w czystym JavaScript. Aplikacja była częścią zadania, była tworzona na czas i od momentu w którym została ukończona nie była modyfikowana. Główny cel to zapisywanie listy zakupów, zapisywanie ich w pamici przeglądarki oraz wysyłanie listy na backend po wciśnięciu przycisku.",
+    additionalInfo: "",
   },
   {
     type: "React",
@@ -68,6 +74,7 @@ export const portfolioData = [
     url: "",
     description:
       "Aplikacja React służąca do zaznaczania na mapie odwiedzonych lokacji. Aplikacja wykorzystuje logowanie, oraz ekploruje potencjał React-a. Aby uruchomić aplikację sprawdź instrukcję na GitHub.",
+    additionalInfo: "",
   },
   {
     type: "React",
@@ -77,7 +84,9 @@ export const portfolioData = [
     repoUrl: "",
     url: "https://cabins-in-the-woods-bo-app.vercel.app/",
     description:
-      "Aplikacja Back-Office dla pracowników firmy wynajmującej domki w lesie dla gości przybywających do ośrodka na wakacje. Aplikacja wykorzystuje stworzony tylko dla siebie backend (Supabase), Tanstack Query, Hook-Form, dark/light mode, logowanie i wiele innych możliwości, które daje React. ",
+      "Aplikacja Back-Office dla pracowników firmy wynajmującej domki w lesie dla gości przybywających do ośrodka na wakacje. Aplikacja wykorzystuje stworzony tylko dla siebie backend (Supabase), Tanstack Query, Hook-Form, dark/light mode, logowanie i wiele innych możliwości, które daje React.",
+    additionalInfo:
+      "UWAGA: aby się zalogować podaj dane - użytkownik: test@test.com, hasło: 12345678",
   },
   {
     type: "React",
@@ -88,5 +97,6 @@ export const portfolioData = [
     url: "https://portfolio-eight-tau-34.vercel.app/portfolio",
     description:
       "Serwis internetowy Portfolio, który właśnie przeglądasz :) - stworzony w NextJS + TypesScript + TailwindCSS. Głównym celem stworzenia serwisu było odświeżenie wiedzy z zakresu TypeScript, Next, Tailwind.",
+    additionalInfo: "",
   },
 ];

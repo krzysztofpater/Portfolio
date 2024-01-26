@@ -8,7 +8,7 @@ type DataItem = {
 
 export default function PortfolioItem({ data }: DataItem) {
   return (
-    <div className="flex flex-col gap-4 py-6 px-4  rounded-lg group transform transition-all ease-in-out duration-200 hover:shadow-[5px_5px_40px] hover:shadow-gray-400 dark:hover:shadow-gray-800">
+    <div className="flex flex-col gap-4 py-6 px-4  rounded-lg group transform transition-all ease-in-out duration-200 hover:shadow-[5px_5px_40px] hover:shadow-gray-400 dark:hover:shadow-gray-700">
       <div className="relative h-[300px] w-[92%] mx-auto overflow-hidden rounded">
         <Image
           src={data.img}
@@ -19,7 +19,10 @@ export default function PortfolioItem({ data }: DataItem) {
       </div>
       <div className="flex flex-col gap-4 flex-1">
         <h3 className="text-2xl text-center m-4">{data.name}</h3>
-        <p className="text-xl">{data.description}</p>
+        <p className="text-base indent-4">{data.description}</p>
+        {data.additionalInfo && (
+          <p className="text-base indent-4">{data.additionalInfo}</p>
+        )}
         {data.repoUrl && (
           <p className="mt-auto">
             <span>Repozytorium: </span>
