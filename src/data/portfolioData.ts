@@ -7,7 +7,7 @@ export const portfolioData = [
     repoUrl: "https://github.com/krzysztofpater/ParadiseIsland",
     url: "https://krzysztofpater.github.io/ParadiseIsland/",
     description:
-      "Strona internetowa wykonana z wykorzystaniem SASS oraz JS. Po więcej szczegółów sprawdź repozytorium na GitHub",
+      "Strona internetowa wykonana z wykorzystaniem SASS oraz JS. Więcej szczegółów znajdziesz w repozytorium na GitHub",
     additionalInfo: "",
   },
   {
@@ -18,7 +18,7 @@ export const portfolioData = [
     repoUrl: "https://github.com/krzysztofpater/Audiofans",
     url: "https://krzysztofpater.github.io/Audiofans/",
     description:
-      "Strona internetowa wykonana z wykorzystaniem Bootstrap, SASS oraz JS. Po więcej szczegółów sprawdź repozytorium na GitHub",
+      "Strona internetowa wykonana z wykorzystaniem Bootstrap, SASS oraz JS. Więcej szczegółów znajdziesz w repozytorium na GitHub",
     additionalInfo: "",
   },
   {
@@ -29,7 +29,7 @@ export const portfolioData = [
     repoUrl: "https://github.com/krzysztofpater/Digitalgold",
     url: "https://krzysztofpater.github.io/Digitalgold/",
     description:
-      "Strona internetowa wykonana z wykorzystaniem SASS oraz JS. Po więcej szczegółów sprawdź repozytorium na GitHub",
+      "Strona internetowa wykonana z wykorzystaniem SASS oraz JS. Więcej szczegółów znajdziesz w repozytorium na GitHub",
     additionalInfo: "",
   },
   {
@@ -48,10 +48,10 @@ export const portfolioData = [
     title: "Javascript",
     name: "Dice Game",
     img: "/dice_game2.png",
-    repoUrl: "https://github.com/krzysztofpater/GuessMyNumber",
-    url: "https://krzysztofpater.github.io/GuessMyNumber/",
+    repoUrl: "https://github.com/krzysztofpater/DiceGame",
+    url: "https://krzysztofpater.github.io/DiceGame/",
     description:
-      "Gra stworzona w czystym JS, z wykorzystaniem responsive design. Aplikacja zawiera też instrukcję. ",
+      "Gra stworzona w czystym JS, z wykorzystaniem responsive design. Aplikacja zawiera też instrukcję. Pełny kod aplikacji dostępny w repozytorium na GitHub.",
     additionalInfo: "",
   },
   {
