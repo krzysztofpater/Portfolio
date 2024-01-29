@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        "auto-fit": "repeat(auto-fit, minmax(350px, 1fr))",
+        autofit: "repeat(auto-fit, minmax(350px, 1fr))",
       },
       keyframes: {
         slidein: {
