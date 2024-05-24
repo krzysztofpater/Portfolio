@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className="bg-gray-200 dark:bg-slate-900 transition-all duration-200">
         <Navigation />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
